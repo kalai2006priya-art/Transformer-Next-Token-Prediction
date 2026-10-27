@@ -1,0 +1,30 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Model checkpoints & artifacts
+saved_model/
+saved_model_test/
+*.weights.h5
+*.keras
+*.h5
+
+# OS & Editor generated files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Credentials / Environment variables
+.env
+*.pem
+*.key
+credentials.json
